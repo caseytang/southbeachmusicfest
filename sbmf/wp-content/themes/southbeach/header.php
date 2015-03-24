@@ -11,3 +11,5 @@
 </head>
 <body>
   <div class="container">
+
+<?php wp_nav_menu(['menu_class'=>'nav nav-pills']); ?>
