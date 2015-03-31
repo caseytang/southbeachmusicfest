@@ -1,18 +1,45 @@
-<?php get_header();
+<?php get_header(); 
 /*
+<<<<<<< HEAD
 Template Name: merch Page
+=======
+Template Name: Merch Page
+>>>>>>> origin/master
 */
 ?>
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<div class="row">
+      <div class="container">
+             <?php $args = array('post_type' => 'photo'); ?>
+            <?php $query = new WP_Query($args) ?>
+            <?php $i = 1; ?>
+            <?php if($query->have_posts()): while ($query->have_posts()) : $query->the_post(); ?>
 
-  	<h1><?php the_title(); ?></h1>
- 	<?php the_content(); ?>
+                  <div class="modal fade" id="myModal<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content center">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
 
+                        <div class="modal-body">
+                          <img src="<?php echo the_field('photo_image'); ?> " class="img-responsive" alt="">
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
 
-  <?php endwhile; else: ?>
-    <p>Sorry, no pages matched your criteria.</p>
-<?php endif; ?>
+            <div class="col-xs-4">
+              <div class="well">
+                <img src="<?php echo the_field('photo_image'); ?> " class="img-responsive" alt="">
+                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">Purchase</a> 
+              </div>   
+            </div>
+            <?php $i++; ?>
+            <?php  endwhile; endif; ?>
+       </div>
+</div>
 
 
 <?php get_footer(); ?>
