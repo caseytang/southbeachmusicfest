@@ -3,17 +3,10 @@
   Version: 1
   Author: Trevor
 */
-body{
-	background-image: url('images/bg1.jpg');
 
-<<<<<<< HEAD
-}
 .container {
-	width: 1024px;	
-	
-	background-color:#efeeee;
-	 
-	
+	width: 1024px;		
+	background-color:#efeeee; 
 }
 /** active nav **/
 .current_page_item a{
