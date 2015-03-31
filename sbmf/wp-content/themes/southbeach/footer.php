@@ -8,7 +8,7 @@
       	<li class="footer-social"><a href="#"><img src="<?php bloginfo ('template_directory'); ?>/images/tumblr.png" alt=""> </a></li>
       </ul>
 	</div>
-    ///
+
 
 </div><!-- x content -->
 </body>
