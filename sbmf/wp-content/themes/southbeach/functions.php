@@ -6,7 +6,6 @@ function register_my_menu() {
   register_nav_menu( 'primary', __( 'Primary Menu', 'theme-slug' ) );
 }
 
-
 function register_my_menus() {
   register_nav_menus(
     array(
@@ -16,5 +15,7 @@ function register_my_menus() {
   );
 }
 add_action( 'init', 'register_my_menus' );
-?>
+
+
+
 

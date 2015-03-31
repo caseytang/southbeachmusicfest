@@ -1,6 +1,6 @@
 <?php get_header();
 /*
-Template Name: About Page
+Template Name: merch Page
 */
 ?>
 
