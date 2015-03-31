@@ -11,3 +11,25 @@
 </head>
 <body>
   <div class="container">
+  	<div class="header">
+          <div class="col-xs-12">
+                <!-- logo image, the logo links to the home page--> 
+                    <a href="<?php bloginfo('url'); ?>"> 
+                    <img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" class="logo" alt="south beach music fest"></a>
+          </div>
+                <!--end of logo img--> 
+          
+<!-- nav starts-->
+<div class="col-xs-12 bar">
+    
+    <?php wp_nav_menu( ['menu_class' => 'nav nav-pills']); ?>
+    			
+</div>
+<!--nav ends-->
+  	
+  
+
+  		
+  		
+  	
+  	
