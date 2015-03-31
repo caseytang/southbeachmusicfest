@@ -53,19 +53,19 @@
 	
 }
 /** buy tickets here **/
-.well-buyhere{
+.well-signhere{
 	margin-top: 20px;
 	text-align: center;
 	color: #ff6666;
 	
 }
 
-.well-buyhere span{
+.well-signhere span{
 	
 	color: #f88a8a;
 
 }
-.well-buyhere span:hover{
+.well-signhere span:hover{
 	color: #fff;
 	text-decoration: none;
 	

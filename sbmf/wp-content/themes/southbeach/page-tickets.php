@@ -64,9 +64,9 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 
 <!-- buy your tickets-->
 <div class="row">
-	<div class="well well-buyhere col-xs-12">
+	<div class="well well-signhere col-xs-12">
 
-		<h1 class="buy">BUY YOUR TICKETS <a href="http://www.ticketmaster.com/section" target="_blank"><span> HERE</span></a></h1>
+		<h1 class="sign">SIGN UP FOR THE WAITING LIST<a href="http://www.ticketmaster.com/section" target="_blank"><span> HERE</span></a></h1>
 		
 
 
