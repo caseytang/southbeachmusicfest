@@ -11,6 +11,7 @@
 </head>
 <body>
   <div class="container">
+
   	<div class="header">
           <div class="col-xs-12">
                 <!-- logo image, the logo links to the home page--> 
@@ -30,6 +31,5 @@
   
 
   		
-  		
   	
-  	
+
