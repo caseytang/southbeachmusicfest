@@ -1,56 +1,37 @@
-<?php get_header(); 
+<?php get_header();
 /*
-<<<<<<< HEAD
-Template Name: faqs Page
-=======
-Template Name: FAQ Page
->>>>>>> origin/master
+Template Name: Faq Page
 */
 ?>
 
 
-<div class="row">
-	<div class="container">
-		<div class="faq">
-			<h1>General Rules and Policies</h1>
-		</div>
-		
-		<div class="rules">
-			<div class="col-xs-6">
-				<ul>
-					<li>Venue gates open at 11 am each day</li>
-					<li>Day parking is free</li>
-					<li>Everyone is subject to search upon entry</li>
-					<li>Festival passes must be worn at all times</li>
-					<li>Line up is subject to change</li>
-				</ul>
-			</div>
-		</div>
-
-			<div class="col-xs-6">
-				<ul>
-					<li>Venue gates open at 11 am each day</li>
-					<li>Day parking is free</li>
-					<li>Everyone is subject to search upon entry</li>
-					<li>Festival passes must be worn at all times</li>
-					<li>Line up is subject to change</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="row">
-	<div class="container">
-		<div class="faq">
-			<h1>General Questions</h1>
-		</div>
-		
-		<div class="questions">
-			<div class="col-xs-6">
-				
-			</div>
-		</div>
-	</div>
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+    <?php $faqs = new WP_Query(['post_type' => 'faq']); ?>
+    <?php if($faqs->have_posts()): while ($faqs->have_posts()) : $faqs->the_post(); ?>
+
+
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#c<?php the_id(); ?>">
+		         	<?php the_title(); ?>
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="c<?php the_id(); ?>" class="panel-collapse collapse">
+		      <div class="panel-body">
+				<?php the_content(); ?>
+		      </div>
+		    </div>
+		  </div>
+			
+
+    <?php  endwhile; endif; ?>
+    </div>
 </div>
+
+<?php get_footer(); ?>
