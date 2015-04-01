@@ -66,9 +66,8 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 <div class="row">
 	<div class="well well-signhere col-xs-12">
 
-		<h1 class="sign">SIGN UP FOR THE WAITING LIST<a href="http://www.ticketmaster.com/section" target="_blank"><span> HERE</span></a></h1>
+		<h1 class="sign">SIGN UP FOR THE<a href="<?php bloginfo('url');?>/waiting-list/" title="<?php bloginfo('waitinglist'); ?>"><?php bloginfo('waiting list'); ?><span> HERE</span></a></h1>
 		
-
 
 	</div>
 		
@@ -86,7 +85,7 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 	<div class="row">
 		<a href="http://www.ticketmaster.com/section" target="_blank"> 
 		
-			<img src="<?php bloginfo('template_directory'); ?>/images/ticket.png" class="ticket-img" alt=""></a>
+			<img src="<?php bloginfo('template_directory'); ?>/images/sold-out_ga.png" class="ticket-img" alt=""></a>
 	</div>
 </div>
 
@@ -122,7 +121,7 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 	<div class="row">
 		<a href="http://www.ticketmaster.com/section" target="_blank"> 
 		
-			<img src="<?php bloginfo('template_directory'); ?>/images/ticket-2.png" class="ticket-img" alt=""></a>
+			<img src="<?php bloginfo('template_directory'); ?>/images/sold-out_vip.png" class="ticket-img" alt=""></a>
 	</div>
 </div>
 
@@ -156,7 +155,7 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 	<div class="row">
 		<a href="http://www.ticketmaster.com/section" target="_blank"> 
 		
-			<img src="<?php bloginfo('template_directory'); ?>/images/ticket-3.png" class="ticket-img" alt=""></a>
+			<img src="<?php bloginfo('template_directory'); ?>/images/sold-out_3day.png" class="ticket-img" alt=""></a>
 	</div>
 </div>
 
