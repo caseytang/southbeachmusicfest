@@ -87,12 +87,12 @@ Template Name: Home Page
     </div>
     
 
-    <div class="col-xs-4">
+    <div class="col-xs-4 right">
         <img src="<?php bloginfo('template_directory'); ?>/images/img4.jpg">
     </div>
     
 
-    <div class="col-xs-4">
+    <div class="col-xs-4 right">
         <img src="<?php bloginfo('template_directory'); ?>/images/img5.jpg">
     </div>
 </div>

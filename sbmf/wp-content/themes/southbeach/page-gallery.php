@@ -6,6 +6,32 @@ Template Name: gallery Page
 
 <div class="row">
       <div class="container">
+
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+	<h1><?php the_title(); ?></h1>
+	<?php the_content(); ?>
+<?php endwhile; else: ?>
+	<p>Sorry no matches </p>
+	<?php endif;
+
+$args = [
+	'post_type'=>'gallery'
+		];
+
+$gallery = new WP_query( $args );
+
+if ($gallery->have_posts()) : while ($gallery->have_posts()) : $gallery->the_post(); ?>
+
+<h3> <a href="<?php the_permalink() ?>"> <?php the_title();?></a></h3>
+<div class="well"><?php the_content(); ?> </div>
+
+<?php endwhile; else: ?>
+<p> Sorry </p>
+<?php endif; ?>
+
+
+<!-- 
              <?php $args = array('post_type' => 'photo'); ?>
             <?php $query = new WP_Query($args) ?>
             <?php $i = 1; ?>
@@ -19,7 +45,7 @@ Template Name: gallery Page
                         </div>
 
                         <div class="modal-body">
-                          <img src="<?php echo the_field(''); ?> " class="img-responsive" alt="">
+                          <img src="<?php echo the_field('gallery'); ?> " class="img-responsive" alt="">
                         </div>
                         
                       </div>
@@ -28,13 +54,13 @@ Template Name: gallery Page
 
             <div class="col-xs-4">
                   <div class="well">
-                        <img src="<?php echo the_field(''); ?> " class="img-responsive" alt="">
+                        <img src="<?php echo the_field('galleries'); ?> " class="img-responsive" alt="">
                         <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">View More</a>
                   </div>
             </div>
             <?php $i++; ?>
             <?php  endwhile; endif; ?>
-       </div>
+       </div> -->
 </div>
 
 

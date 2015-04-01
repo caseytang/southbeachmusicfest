@@ -100,13 +100,17 @@
 
 .push {
 	float: left;
-	margin-left: 15px;
+	margin-left: 25px;
 	margin-top: 20px;
 }
 
 .pad {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.right {
+	margin-right: 0px;
 }
 
 =======
