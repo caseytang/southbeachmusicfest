@@ -71,7 +71,7 @@ Template Name: Home Page
 	</div>
 
 
-<div class="row">
+<div class="row push">
 	<div class="col-xs-6">
 		<img src="<?php bloginfo('template_directory'); ?>/images/img1.jpg">
 	</div>
