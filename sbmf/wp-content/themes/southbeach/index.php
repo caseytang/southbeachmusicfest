@@ -5,7 +5,6 @@ Template Name: Home Page
 ?>
 
 <div class="row">
-	
 		<div class="col-xs-12">
 			<div id="carousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
@@ -62,12 +61,11 @@ Template Name: Home Page
 				  </a>
 			</div>
 		</div>
-	
 </div>
 
 
 <div class="row">
-		<div class="col-xs-12">
+		<div class="col-xs-12 pad">
 			<img src="<?php bloginfo('template_directory'); ?>/images/home1.png">
 		</div>
 	</div>
