@@ -5,7 +5,7 @@ Template Name: Home Page
 ?>
 
 <div class="row">
-	<div class="container">
+	
 		<div class="col-xs-12">
 			<div id="carousel" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
@@ -20,31 +20,31 @@ Template Name: Home Page
 				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox">
 				    <div class="item active">
-				      <img src="images/slide1.jpg" alt="miami">
+				      <img src="<?php bloginfo('template_directory'); ?>/images/slide1.jpg" alt="miami">
 				      <div class="carousel-caption">
 				        ...
 				      </div>
 				    </div>
 				    <div class="item">
-				      <img src="images/slide2.jpg" alt="miami">
+				      <img src="<?php bloginfo('template_directory'); ?>/images/slide2.jpg" alt="miami">
 				      <div class="carousel-caption">
 				        ...
 				      </div>
 				    </div>
 				    <div class="item">
-				      <img src="images/slide3.jpg" alt="miami">
+				      <img src="<?php bloginfo('template_directory'); ?>/images/slide3.jpg" alt="miami">
 				      <div class="carousel-caption">
 				        ...
 				      </div>
 				  	</div>
 				    <div class="item">
-				      	<img src="images/slide4.jpg" alt="miami">
+				      	<img src="<?php bloginfo('template_directory'); ?>/images/slide4.jpg" alt="miami">
 				      <div class="carousel-caption">
 				        ...
 				      </div>
 				    </div>
 				    <div class="item">
-				      	<img src="images/slide5.jpg" alt="miami">
+				      	<img src="<?php bloginfo('template_directory'); ?>/images/slide5.jpg" alt="miami">
 				      <div class="carousel-caption">
 				        ...
 				      </div>
@@ -62,40 +62,41 @@ Template Name: Home Page
 				  </a>
 			</div>
 		</div>
+	
+</div>
+
+
+<div class="row">
+		<div class="col-xs-12">
+			<img src="<?php bloginfo('template_directory'); ?>/images/home1.png">
+		</div>
+	</div>
+
+
+<div class="row">
+	<div class="col-xs-6">
+		<img src="<?php bloginfo('template_directory'); ?>/images/img1.jpg">
+	</div>
+
+	<div class="col-xs-6">
+		<img src="<?php bloginfo('template_directory'); ?>/images/img2.jpg">
 	</div>
 </div>
 
-<div class="row">
-	<div class="conatiner">
-		<div class="col-xs-6 row1">
-			<div class="col-xs-6">
-				<img src="<?php bloginfo('template_directory'); ?>/images/img1.jpg">
-			</div>
+<div class="row push">
+    <div class="col-xs-4">
+        <img src="<?php bloginfo('template_directory'); ?>/images/img3.jpg">
+    </div>
+    
 
-			<div class="col-xs-6">
-				<img src="<?php bloginfo('template_directory'); ?>/images/img1.jpg">
-			</div>
-			
-		</div>
-	</div>
-</div>
+    <div class="col-xs-4">
+        <img src="<?php bloginfo('template_directory'); ?>/images/img4.jpg">
+    </div>
+    
 
-<div class="row">
-	<div class="container">
-		<div class="col-xs-4">
-			<div class="col-xs-6">
-				<img src="<?php bloginfo('template_directory'); ?>/images/img3.jpg">
-			</div>
-
-			<div class="col-xs-6">
-				<img src="<?php bloginfo('template_directory'); ?>/images/img4.jpg">
-			</div>
-
-			<div class="col-xs-6">
-				<img src="<?php bloginfo('template_directory'); ?>/images/img5.jpg">
-			</div>
-		</div>
-	</div>
+    <div class="col-xs-4">
+        <img src="<?php bloginfo('template_directory'); ?>/images/img5.jpg">
+    </div>
 </div>
 
 
