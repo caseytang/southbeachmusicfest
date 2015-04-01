@@ -93,18 +93,15 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 <div class="col-xs-5">
 	<div class="row ticket-text">
 		
-			<p>t is a long established fact that a reader 
-				will be distracted by the readable content 
-				of a page when looking at its layout. The 
-				point of using Lorem Ipsum is that it has a 
-				more-or-less normal distribution of letters, 
-				as opposed to using 'Content here, content here', 
-				making it look like readable English. Many desktop p
-				ublishing packages and web page editors now use Lorem 
-				Ipsum as their default model text, and a search for '
-				lorem ipsum' will uncover many web sites still in the
-				ir infancy. Various versions have evolved over the years, 
-				sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			<p>A WRISTBAND WILL TAKE THE PLACE OF A TICKET. WRISTBANDS WILL SHIP IN ADVANCE. NO TICKETS WILL BE PRINTED OR SHIPPED.
+
+A HIGH-SECURITY WRISTBAND WITH A UNIQUE EMBEDDED BARCODE CHIP WILL BE MAILED TO YOU BEFORE THE FESTIVAL. THE WRISTBAND IS LIKE CASH-IT CANNOT BE REPLACED IF LOST OR STOLEN. THE WRISTBAND WILL BE SCANNED AS YOU ENTER THE FESTIVAL SITE. THE WRISTBAND SHOULD REMAIN ON YOUR WRIST THROUGHOUT THE FESTIVAL. 
+
+ORDERS WILL SHIP ON 1/15/15. YOU WILL BE NOTIFIED WHEN YOUR ORDER IS SHIPPED. ORDER WILL BE SHIPPED REGULAR MAIL AND YOU SHOULD EXPECT YOUR WRISTBAND(S) TO ARRIVE IN 7-10 BUSINESS DAYS FROM RECEIPT OF SHIPPING CONFIRMATION EMAIL. 
+
+IF PURCHASING FROM OUTSIDE THE US OR CANADA, WRISTBANDS WILL BE HELD AT WILL CALL AT THE FESTIVAL BOX OFFICE. 
+
+VISIT WWW.SOUTHBEACHMUSICFEST.COM. FOR MORE INFORMATION. WRISTBANDS ARE NON-TRANSFERABLE. </p>
 	</div>
 </div>
 </div>
@@ -129,18 +126,16 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 <div class="col-xs-5">
 	<div class="row ticket-text">
 		
-			<p>t is a long established fact that a reader 
-				will be distracted by the readable content 
-				of a page when looking at its layout. The 
-				point of using Lorem Ipsum is that it has a 
-				more-or-less normal distribution of letters, 
-				as opposed to using 'Content here, content here', 
-				making it look like readable English. Many desktop p
-				ublishing packages and web page editors now use Lorem 
-				Ipsum as their default model text, and a search for '
-				lorem ipsum' will uncover many web sites still in the
-				ir infancy. Various versions have evolved over the years, 
-				sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			<p>A VIP WRISTBAND WILL TAKE THE PLACE OF A TICKET. VIP WRISTBANDS WILL SHIP IN ADVANCE. NO TICKETS WILL BE PRINTED OR SHIPPED.
+
+A HIGH-SECURITY VIP WRISTBAND WITH A UNIQUE EMBEDDED BARCODE CHIP WILL BE MAILED TO YOU BEFORE THE FESTIVAL. THE VIP WRISTBAND IS LIKE CASH-IT CANNOT BE REPLACED IF LOST OR STOLEN. THE VIP WRISTBAND WILL BE SCANNED AS YOU ENTER THE FESTIVAL SITE. THE VIP WRISTBAND SHOULD REMAIN ON YOUR WRIST THROUGHOUT THE FESTIVAL. 
+
+ORDERS WILL SHIP ON 1/15/15. YOU WILL BE NOTIFIED WHEN YOUR ORDER IS SHIPPED. ORDER WILL BE SHIPPED REGULAR MAIL AND YOU SHOULD EXPECT YOUR VIP WRISTBAND(S) TO ARRIVE IN 7-10 BUSINESS DAYS FROM RECEIPT OF SHIPPING CONFIRMATION EMAIL. 
+
+IF PURCHASING FROM OUTSIDE THE US OR CANADA, VIP WRISTBANDS WILL BE HELD AT WILL CALL AT THE FESTIVAL BOX OFFICE. 
+
+VISIT WWW.SOUTHBEACHMUSICFEST.COM. FOR MORE INFORMATION. VIP WRISTBANDS ARE NON-TRANSFERABLE. 
+</p>
 	</div>
 </div>
 </div>
@@ -163,18 +158,16 @@ if ($tickets->have_posts()) : while ($tickets->have_posts()) : $tickets->the_pos
 <div class="col-xs-5">
 	<div class="row ticket-text">
 		
-			<p>t is a long established fact that a reader 
-				will be distracted by the readable content 
-				of a page when looking at its layout. The 
-				point of using Lorem Ipsum is that it has a 
-				more-or-less normal distribution of letters, 
-				as opposed to using 'Content here, content here', 
-				making it look like readable English. Many desktop p
-				ublishing packages and web page editors now use Lorem 
-				Ipsum as their default model text, and a search for '
-				lorem ipsum' will uncover many web sites still in the
-				ir infancy. Various versions have evolved over the years, 
-				sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+			<p>A 3-DAY WRISTBAND WILL TAKE THE PLACE OF A TICKET. 3-DAY WRISTBANDS WILL SHIP IN ADVANCE. NO TICKETS WILL BE PRINTED OR SHIPPED.
+
+A HIGH-SECURITY 3-DAY WRISTBAND WITH A UNIQUE EMBEDDED BARCODE CHIP WILL BE MAILED TO YOU BEFORE THE FESTIVAL. THE 3-DAY WRISTBAND IS LIKE CASH-IT CANNOT BE REPLACED IF LOST OR STOLEN. THE 3-DAY WRISTBAND WILL BE SCANNED AS YOU ENTER THE FESTIVAL SITE. THE 3-DAY WRISTBAND SHOULD REMAIN ON YOUR WRIST THROUGHOUT THE FESTIVAL. 
+
+ORDERS WILL SHIP ON 1/15/15. YOU WILL BE NOTIFIED WHEN YOUR ORDER IS SHIPPED. ORDER WILL BE SHIPPED REGULAR MAIL AND YOU SHOULD EXPECT YOUR 3-DAY WRISTBAND(S) TO ARRIVE IN 7-10 BUSINESS DAYS FROM RECEIPT OF SHIPPING CONFIRMATION EMAIL. 
+
+IF PURCHASING FROM OUTSIDE THE US OR CANADA, 3-DAY WRISTBANDS WILL BE HELD AT WILL CALL AT THE FESTIVAL BOX OFFICE. 
+
+VISIT WWW.SOUTHBEACHMUSICFEST.COM. FOR MORE INFORMATION. 3-DAY WRISTBANDS ARE NON-TRANSFERABLE. 
+</p>
 	</div>
 </div>
 </div>
