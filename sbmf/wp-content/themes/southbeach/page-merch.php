@@ -9,37 +9,52 @@ Template Name: Merch Page
 ?>
 
 <div class="row">
-      <div class="container">
-             <?php $args = array('post_type' => 'photo'); ?>
-            <?php $query = new WP_Query($args) ?>
-            <?php $i = 1; ?>
-            <?php if($query->have_posts()): while ($query->have_posts()) : $query->the_post(); ?>
+  <div class="container">
+    <div class="col-xs-4">
+      <div class="well">
+        <img src="<?php bloginfo('template_directory'); ?>/images/m1.jpg">
+        <h4>Best plan for you best pal</h4>
+      </div>
+    </div>
 
-                  <div class="modal fade" id="myModal<?php echo $i;?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content center">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        </div>
+    <div class="col-xs-4">
+      <div class="well">
+        <img src="<?php bloginfo('template_directory'); ?>/images/m2.jpg">
+        <h4>Groupon</h4>
+      </div>
+    </div>
 
-                        <div class="modal-body">
-                          <img src="<?php echo the_field('images'); ?> " class="img-responsive" alt="">
-                        </div>
-                        
-                      </div>
-                    </div>
-                  </div>
+    <div class="col-xs-4">
+      <div class="well">
+        <img src="<?php bloginfo('template_directory'); ?>/images/m3.jpg">
+        <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">View More</a>
+      </div>
+    </div>
 
-            <div class="col-xs-4">
-              <div class="well">
-                <img src="<?php echo the_field('images'); ?> " class="img-responsive" alt="">
-                <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">Purchase</a> 
-              </div>   
-            </div>
-            <?php $i++; ?>
-            <?php  endwhile; endif; ?>
-       </div>
-</div>
+    <div class="col-xs-4">
+      <div class="well">
+        <img src="<?php bloginfo('template_directory'); ?>/images/m4.jpg">
+        <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">View More</a>
+      </div>
+    </div>
+    
+    <div class="col-xs-4">
+      <div class="well">
+        <img src="<?php bloginfo('template_directory'); ?>/images/m5.jpg">
+        <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">View More</a>
+      </div>
+    </div>
+    
+    <div class="col-xs-4">
+      <div class="well">
+        <img src="<?php bloginfo('template_directory'); ?>/images/m6.jpg">
+        <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">View More</a>
+      </div>
+    </div>
+
+  <div>
+
+
 
 
 <?php get_footer(); ?>

@@ -23,7 +23,7 @@ Template Name: Merch Page
                         </div>
 
                         <div class="modal-body">
-                          <img src="<?php echo the_field('images'); ?> " class="img-responsive" alt="">
+                          <img src="<?php echo the_field('merch-img'); ?> " class="img-responsive" alt="">
                         </div>
                         
                       </div>
@@ -32,7 +32,7 @@ Template Name: Merch Page
 
             <div class="col-xs-4">
               <div class="well">
-                <img src="<?php echo the_field('images'); ?> " class="img-responsive" alt="">
+                <img src="<?php echo the_field('merch-img'); ?> " class="img-responsive" alt="">
                 <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal<?php echo $i;?>">Purchase</a> 
               </div>   
             </div>
